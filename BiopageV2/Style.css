@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: darumadrop one, sans-serif;
+    background: #091413;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header{
+    background-color: #285A48;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 6px solid #091413;
+    border-radius: 15px;
+}
+
+header nav{
+    background-color: #408A71;
+    border-bottom: 3px solid white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+header nav ul li:hover a{
+    color: #B0E4CC;
+}
+
+header .Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid #fff;
+    margin: 60px auto 0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+header div{
+    margin-top: 20px;
+    background-color: #408A71;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+header h1{
+    font-size: 30px;
+    margin: 20px 0 0px;
+}
+
+header h2{
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+/* main */
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #285A48;
+    border: 6px solid #091413;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.About, .Skills, .Contact{
+    margin: 5vh;
+    background-color: #408A71;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+.About h2, .Skills h2, .Contact h2{
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.Skills li{
+    margin-top: 15px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.Skills ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.Contact ul{
+    margin: 25px 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.Contact a{
+    display: block;
+    width: 250px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.Contact a:hover{
+    background-color: #408A71;
+    color: #B0E4CC;
+}
+
+footer{
+    background-color: #285A48;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 6px solid #091413;
+    border-radius: 15px;
+}
+
+footer p{
+    background-color: #408A71;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
